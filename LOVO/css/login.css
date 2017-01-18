@@ -1,0 +1,320 @@
+
+/*********head***************************/
+#head{
+	width: 100%;
+	border-bottom: 2px solid #940032;
+}
+.top{
+	height: 90px;
+	margin: 0 auto;
+	width: 1000px;
+	padding-top: 30px;
+	overflow: hidden;
+}
+.top img{
+	float: left;
+}
+.top #please{
+	float: right;
+	font-size: 15px;
+	color: #999999;
+	height: 60px;
+	line-height: 60px;
+}
+.top #please a{
+	font-size: 13px;
+}
+/****************************banner***************************************/
+.banner{
+	height: 500px;
+	width: 100%;
+	background: #6a0606;
+}
+.banner .container{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	background: url(../img/201701121145502595.jpg) no-repeat 5px 12px;
+}
+.banner .container #login{
+	float: right;
+	width: 346px;
+	background: #fff;
+	margin: 40px 0 auto auto;
+}
+#login ul{
+	border-bottom: 1px solid #aaa;
+	height: 56px;
+	width: 100%;
+	overflow: hidden;
+}
+#login ul li{
+	float: left;
+}
+#login ul li a{
+	display: block;
+	font-size: 18px;
+	height: 30px;
+	margin-top: 13px;
+	line-height: 30px;
+	border-right: 1px solid #AAAAAA;
+	text-align: center;
+}
+#login ul li .colorWeight{
+	font-weight: 900;
+	color: red;
+}
+#login ul li:nth-child(1) a{
+	width: 170px;
+}
+#login ul li:nth-child(2) a{
+	border-right: none;
+	width: 150px;
+}
+#login .input1{
+	margin-left: 20px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	border: 1px solid #999;
+	height: 40px;
+	width: 300px;
+	position: relative;
+}
+#login .input2{
+	margin-top: 0px;
+	margin-left: 20px;
+	border: 1px solid #999;
+	height: 40px;
+	width: 300px;
+	position: relative;
+}
+#login .input input{
+	width: 250px;
+	border: 0;
+	height:40px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	text-align: left;
+	padding-left: 50px;
+}
+#login .input1 span{
+	position: absolute;
+	border-right: 1px solid #CCCCCC;
+	display: block;
+	height: 40px;
+	width: 40px;
+	background: url(../img/pwd-icons-new.png) no-repeat 1px 1px;
+	float: left;
+}
+#login .input2 span{
+	position: absolute;
+	border-right: 1px solid #CCCCCC;
+	display: block;
+	height: 40px;
+	width: 40px;
+	background: url(../img/pwd-icons-new.png) no-repeat -48px 1px;
+	float: left;
+}
+#login .miMa{
+	height: 60px;
+	width: 326px;
+	padding-right: 20px;
+}
+#login .miMa a{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	text-align: right;
+	font-size: 14px;
+}
+#login .miMa a:hover{
+	color: red;
+}
+#login>span{
+	display: block;
+	height: 35px;
+	width: 306px;
+	margin-left: 20px;
+	margin-bottom: 25px;
+	background: #042148;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+	color: #fff;
+}
+/*****************************footer***********************************************/
+.loginfooter{
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	height: 70px;
+	margin: 0 auto;
+	
+}
+.loginfooter div{
+	padding: 20px;
+	height: 30px;
+	margin: 0 auto;
+	width: 306px;
+}
+
+.loginfooter a{
+	height: 30px;
+	display: block;
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	margin-right: 6px;
+}
+.loginfooter a span{
+	height: 20px;
+	display: block;
+	float: left;
+	width: 20px;
+	margin-top: 5px;
+}
+.loginfooter a:nth-child(1) span{
+	background: url(../img/QQ-weixin.png) no-repeat 0px 0px;
+}
+.loginfooter a:nth-child(2) span{
+	background: url(../img/QQ-weixin.png) no-repeat -20px 0px;
+}
+.loginfooter a:nth-child(3) span{
+	background: url(../img/QQ-weixin.png) no-repeat -40px 0px;
+}
+.loginfooter a:nth-child(4) span{
+	background: url(../img/QQ-weixin.png) no-repeat -60px 0px;
+}
+.loginfooter a:nth-child(5) span{
+	background: url(../img/pwd-icons-new.png) no-repeat -102px -75px;
+}
+#footera{
+	width: 100%;
+	margin-top: 10px;
+}
+#footera .container{
+	width: 1000px;
+	margin: 0 auto;
+}
+#footera .container .bottomBox1{
+	border-top: 1px dashed #CCCCCC;
+	position: relative;
+	margin-bottom: 24px;
+}
+#footera .bottomBox1 .logo{
+	position: absolute;
+	top: -9px;
+	left: 0;
+}
+#footera .bottomBox1 ul{
+	margin-left: 170px;
+	margin-top: 24px;
+	
+}
+#footera .bottomBox1 ul li{
+	float: left;
+	margin-right: 60px;
+}
+#footera .bottomBox1 ul li span{
+	float: left;
+	display: block;
+	margin-right: 4px;
+}
+
+#footera .bottomBox1 ul li span:nth-child(1){
+	height: 30px;
+	width: 30px;
+}
+#footera .bottomBox1 ul li span:nth-child(2){
+	font-size: 24px;
+	font-weight: 900;
+	color: #63758e;
+}
+#footera .bottomBox1 ul li span:nth-child(3){
+	font-size: 12px;
+	line-height: 18px;
+	color: #63758e;
+}
+
+#footera .bottomBox1 ul li:nth-child(1) span:nth-child(1){
+	background: url(../img/ico.png) no-repeat -76px -116px;
+}
+#footera .bottomBox1 ul li:nth-child(2) span:nth-child(1){
+	background: url(../img/ico.png) no-repeat 0px -116px;
+}
+
+#footera .bottomBox1 ul li:nth-child(3) span:nth-child(1){
+	background: url(../img/ico.png) no-repeat -40px -116px;
+}
+
+#footera .bottomBox1 ul li:nth-child(4) span:nth-child(1){
+	background: url(../img/ico.png) no-repeat -112px -116px;
+}
+
+
+/*************ffooterbottomBox2**************************/
+
+#footera .bottomBox2{
+	border-top: 1px dashed #CCCCCC ;
+	padding-top: 20px;
+	padding-bottom: 48px;
+}
+#footera .bottomBox2 ul{
+	margin-left: 40px;
+	margin-right: 40px;
+	float: left;
+}
+#footera .bottomBox2 ul li a{
+	color: #727483;
+	line-height: 24px;
+}
+#footera .bottomBox2 ul li:nth-child(1){
+	color: #000000;
+	line-height: 24px;
+}
+#footerb{
+	width: 100%;
+	border-top: 1px solid #6A0606;
+	background: #dddddd;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	color: #959595;
+}
+#footerb .container{
+	width: 1000px;
+	margin: 0 auto;
+}
+#footerb .container span:nth-child(1){
+	float: left;
+}
+#footerb .container span:nth-child(2){
+	float: right;
+}
+#footerc{
+	width: 100%;
+}
+#footerc .container{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top:20px ;
+	overflow: hidden;
+}
+#footerc .container span{
+	background: url(../img/icon.png) no-repeat 0 -660px;
+	display: block;
+	width: 260px;
+	height: 46px;
+	float: left;
+	margin-right: 10px;
+}
+#footerc .container div{
+	float: left;
+	font-size: 12px;
+	color: #959595;
+	line-height: 20px;
+}
+#footerc .container div img{
+	float: left;
+}
+
